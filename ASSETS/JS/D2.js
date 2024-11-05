@@ -91,7 +91,7 @@ if (totaleScontato <= 50) {
   Alla fine mostra il risultato in console.
 */
 
-let numberOne = 4;
+let numberOne = 25;
 let numberTwo = 7;
 let numberThree = 22;
 
@@ -122,7 +122,7 @@ console.log(numberOne, numberTwo, numberThree);
 
 let valore = 10;
 
-if (typeof Number(valore) === "number" && !isNaN(valore)) {
+if (typeof (valore) === "number") {
   console.log("Il valore è un numero");
 } else {
   console.log("Il valore non è un numero");
