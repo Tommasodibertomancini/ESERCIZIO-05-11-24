@@ -32,7 +32,7 @@ if (number !== 5) {
 
 let numero = 25;
 
-if (25 % 5 === 0) {
+if (numero % 5 === 0) {
   console.log("Numero divisibile per 5");
 } else {
   console.log("Non divisibile");
